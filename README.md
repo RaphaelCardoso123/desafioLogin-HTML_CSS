@@ -1,1 +1,1 @@
-Desafio proposto pela TI Academy
+Desafio proposto pela TI Academy.
