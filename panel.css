@@ -53,22 +53,21 @@ span {
     padding-left: 5px;
 }
 
+div#lado-direito {
+    width: 100%;
+    height: 100vh;
+}
 
-
-
-div#lado-direito #forms {
+form{
     width: 40%;
     height: auto;
     margin: 100px auto;
-}
-form{
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
+    background-color: aquamarine;
+    border: 1px solid rgb(109, 75, 75);
     padding: 10px;
-
     position: relative;
 }
+
 #cliente_titulo{
     width: 50%;
     border: 1px solid red;
@@ -196,11 +195,13 @@ form{
     border-radius: 7px;
     border: 1px solid red;  
 }
+
 #pedido_cliente{
-    width: 50vw; /*SE COLOCO % NÃO FUNCIONA*/
+    width: 60%; /*SE COLOCO % NÃO FUNCIONA*/
     display: flex;
     border: 3px solid yellow;
 }
+
 #localizar_produto_div{
     margin-top: 10px;
     border-top: 2px solid blue;
@@ -223,12 +224,14 @@ section{
     width: 30%;
     cursor: pointer;
     border: 1px solid black;
+    background-color: rgb(219, 226, 226);
     margin-bottom: 5px;
 }
 .pedido_input_terceiro{
     width: 10%;
     cursor: pointer;
     border: 1px solid black;
+    background-color: rgb(219, 226, 226);
     margin-bottom: 5px;
 }
 .pedido_input_quarto{
@@ -240,10 +243,28 @@ section{
 #lancar_pedido{
     cursor: pointer;
     border: 1px solid black;
+    background-color: rgb(219, 226, 226);
     margin-bottom: 5px;
 }
 #itens_do_pedido{
     margin-top: 5px;
 }
-
+.ultima_parte{
+    border: 1px solid red;
+}
+.item{
+    margin-top: 5px;
+}
+/* .descricao{
+    margin-top: 5px;
+}
+.preco{
+    margin-top: 5px;
+}
+.qtd{
+    margin-top: 5px;
+}
+.sub_total{
+    margin-top: 5px;
+} */
 
