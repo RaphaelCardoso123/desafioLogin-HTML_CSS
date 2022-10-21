@@ -10,6 +10,7 @@
 </head>
 <body>
     <main class ="flex">
+
         
         <div class ="flex" id ="lado-esquerdo">
             <ul>
@@ -19,41 +20,90 @@
             </ul>
         </div>
 
-<div class ="flex" id ="lado-direito">
 
-    <div id="forms">      
-        <form id="clientes_produtos" action="">
-            <fieldset>
-               
-                 <span id="cliente_fechar">X</span> 
+        <div class ="flex" id ="lado-direito">
+            <div id="forms">
 
-                <label for="cliente_titulo" id="cliente_titulo" class="flex">Clientes</label> 
+                <form id="cliente_produto" action="">
+                    <fieldset>
+                        <span id="btn_fechar">X</span> 
+
+                        <label for="cliente_titulo" id="cliente_titulo" class="flex">Clientes</label> 
                                
-                <label for="codigo" class="cliente_label flex">Código</label>
-                <input type="text" class="cliente_input flex" name="codigo">
+                        <label for="codigo" class="subtitulo_label flex">Código</label>
+                        <input type="text" class="cliente_input flex" name="codigo">
             
-                <label for="nome" class="cliente_label flex">Nome</label>
-                <input type="text" class="cliente_input flex" name="nome">
+                        <label for="nome" class="subtitulo_label flex">Nome</label>
+                        <input type="text" class="cliente_input flex" name="nome">
             
-                <label for="datacadastro" class="cliente_label flex">Data Cadastro</label>
-                <input type="text" id="data_cadastro" class="cliente_input flex" name="codigo">
+                        <label for="data_cadastro" class="subtitulo_label flex">Data Cadastro</label>
+                        <input type="text" id="data_cadastro" class="cliente_input flex" name="codigo">
             
-                <input type="button" id="client_anterior" class="btn_cliente_listar" value="<">
-                <input type="button" id="cliente_seguinte" class="btn_cliente_listar" value=">">
-                <input type="button" id="cliente_novo" class="btn_cliente_novo" value="Novo">
-                <input type="button" id="cliente_salvar" class="btn_cliente_salvar" value="Salvar">
-        </fieldset>
-        </form>
+                        <input type="button" id="cliente_anterior" class="btn_cliente_listar" value="<">
+                        <input type="button" id="cliente_seguinte" class="btn_cliente_listar" value=">">
+                        <input type="button" id="cliente_novo" class="btn_cliente_novo" value="Novo">
+                        <input type="button" id="cliente_salvar" class="btn_cliente_salvar" value="Salvar">
+                    </fieldset>
+                </form>
 
 
-        <form id="produtos_cliente" action="">
-            <fieldset>
-                
-            </fieldset>
-        </form>
+                <form id="produto_cliente" action="">
+                    <fieldset>
+                        <span id="btn_fechar">X</span> 
+
+                        <label for="produto_titulo" id="produto_titulo" class="flex">Produtos</label> 
+                               
+                        <label for="codigo" class="subtitulo_label flex">Código</label>
+                        <input type="text" class="produto_input flex" name="codigo">
+            
+                        <label for="descricao" class="subtitulo_label flex">Descrição</label>
+                        <input type="text" class="produto_input flex" name="descricao">
+            
+                        <label for="preco" class="subtitulo_label flex">Preço</label>
+                        <input type="text" id="preco_cadastro" class="produto_input flex" name="preco">
+
+                        <label for="quantidade" class="subtitulo_label flex">Quantidade</label>
+                        <input type="text" id="quantidade_cadastro" class="produto_input flex" name="quantidade">
+            
+                        <input type="button" id="produto_anterior" class="btn_cliente_listar" value="<">
+                        <input type="button" id="produto_seguinte" class="btn_cliente_listar" value=">">
+                        <input type="button" id="produto_novo" class="btn_cliente_novo" value="Novo">
+                        <input type="button" id="produto_salvar" class="btn_cliente_salvar" value="Salvar">
+                    </fieldset>
+                </form>
 
 
-    </div>
+
+
+
+
+
+                <form id="pedido_cliente" action="">
+                    <fieldset>
+                        <span id="btn_fechar">X</span> 
+
+                        <label for="pedido_titulo" id="pedido_titulo" class="flex">Pedidos</label> 
+                               
+                        <label for="codigo_do_cliente" class="subtitulo_label flex">Código do Cliente</label>
+                        <input type="text" class="pedido_input flex" name="codigo_do_cliente">
+            
+                        <label for="cliente_pedido" class="subtitulo_label flex">Cliente</label>
+                        <input type="text" class="pedido_input flex" name="cliente_pedido">
+            
+                        <!-- <label for="preco" class="subtitulo_label flex">Preço</label>
+                        <input type="text" id="preco_cadastro" class="pedido_input flex" name="preco">
+
+                        <label for="quantidade" class="subtitulo_label flex">Quantidade</label>
+                        <input type="text" id="quantidade_cadastro" class="pedido_input flex" name="quantidade">
+            
+                        <input type="button" id="produto_anterior" class="btn_cliente_listar" value="<">
+                        <input type="button" id="produto_seguinte" class="btn_cliente_listar" value=">">
+                        <input type="button" id="produto_novo" class="btn_cliente_novo" value="Novo">
+                        <input type="button" id="produto_salvar" class="btn_cliente_salvar" value="Salvar"> -->
+                    </fieldset>
+                </form>
+
+        </div>
 
 
 

@@ -5,30 +5,24 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .flex {
     display: flex;
 }
-
 #lado-esquerdo {
     width: 15%;
     height: 100vh;
     border-right: 1px solid black;
 }
-
 #lado-direito {
     width: 85%;
     height: 100vh;
 }
-
 .flex a {
     justify-content: flex-start;   
 }
-
 div#lado-esquerdo ul {
     width: 100%;
 }
-
 div#lado-esquerdo ul li {
     width: 100%;
     height: auto;
@@ -36,7 +30,6 @@ div#lado-esquerdo ul li {
     padding: 7px 0; 
     list-style: none;
 }
-
 div#lado-esquerdo ul li:hover {
     width: 100%;
     height: auto;
@@ -46,7 +39,6 @@ div#lado-esquerdo ul li:hover {
     background-color: rgb(151, 241, 232);
     list-style: none;
 }
-
 a {  
     width: 100%;
     height: 20px;
@@ -56,18 +48,19 @@ a {
     text-decoration: none;
     color: black;
 }
-
 span {
     padding-right: 5px;
     padding-left: 5px;
 }
+
+
+
 
 div#lado-direito #forms {
     width: 40%;
     height: auto;
     margin: 100px auto;
 }
-
 form{
     width: 100%;
     height: auto;
@@ -76,8 +69,6 @@ form{
 
     position: relative;
 }
-
-
 #cliente_titulo{
     width: 50%;
     border: 1px solid red;
@@ -85,8 +76,7 @@ form{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
 }
-
-#cliente_fechar{
+#btn_fechar{
     color: red;
     padding: .3rem .6rem;
     font-size: 1rem;
@@ -100,8 +90,7 @@ form{
     /* width: 50px; */
     /* height: 20px; */
 }
-
-.cliente_label{
+.subtitulo_label{
     margin-top: 1.5rem;
     border: 1px solid black;
     font-size: 1rem;
@@ -109,19 +98,16 @@ form{
 }
 .cliente_input{
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin: 2px auto 2px auto;
     padding: 7px;
     font-size: 1.3rem;
     border-radius: 7px;
     border: 1px solid red;  
 }
-
 #data_cadastro{
     margin-bottom: 10px;
 }
-
-
 .btn_cliente_listar{
     width: 15%;
     height: 30px;
@@ -132,7 +118,6 @@ form{
     background-color:blueviolet;
     color: white; 
 }
-
 #cliente_novo{
     width: 25%;
     height: 30px;
@@ -152,4 +137,62 @@ form{
     cursor: pointer;
     background-color: green;
     color: white;
+}
+
+
+
+#produto_titulo{
+    width: 50%;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+.produto_input{
+    width: 100%;
+    height: 40px;
+    margin: 2px auto 2px auto;
+    padding: 7px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    border: 1px solid red;  
+}
+#produto_novo{
+    width: 25%;
+    height: 30px;
+    margin-left: 14%;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(20, 83, 201);
+    color: white;
+}
+#produto_salvar{
+    width: 25%;
+    height: 30px;
+    margin: 5px auto 5px auto;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+
+
+#pedido_titulo{
+    width: 50%;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+}
+.pedido_input{
+    width: 100%;
+    height: 40px;
+    margin: 2px auto 2px auto;
+    padding: 7px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    border: 1px solid red;  
 }
