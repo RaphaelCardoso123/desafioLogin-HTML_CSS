@@ -78,6 +78,7 @@
 
                 <form id="pedido_cliente" action="">
                     <fieldset id="pedido_fieldset">
+
                         <span id="btn_fechar">X</span> 
 
                         <label for="pedido_titulo" id="pedido_titulo" class="flex">Pedidos</label> 
@@ -87,13 +88,21 @@
             
                         <label for="cliente_pedido" class="subtitulo_label flex">Cliente</label>
                         <input type="text" class="pedido_input flex" name="cliente_pedido"> <!--precisa de id?-->
-
-
-            
-                        <div id="localizar_produto"> 
-                            <label for="localizar_produto" class="subtitulo_label flex">Localizar Produto</label>
-                            <input type="text" class="pedido_input flex" name="localizar_produto"> <!--precisa de id?-->
+ 
+                        <div id="localizar_produto_div"> 
+                            <label for="localizar_produto" id="localizar_produto_label" class="subtitulo_label flex">Localizar Produto</label>
+                                <section class="flex"> 
+                                    <input type="text" class="pedido_input_primeiro flex" name="localizar_produto"> <!--precisa de id?-->
+                                    <input type="text" class="pedido_input_segundo flex" name="localizar_produto">
+                                    <input type="text" class="pedido_input_terceiro flex" name="localizar_produto">
+                                    <input type="text" class="pedido_input_quarto flex" name="localizar_produto">
+                                    <button id="lancar_pedido">Lançar no Pedido</button>
+                                </section>
                         </div>
+
+                        <label for="itens_do_pedido" id="itens_do_pedido" class="subtitulo_label flex">Itens do Pedido</label>
+
+                        
                     </fieldset>
 
 

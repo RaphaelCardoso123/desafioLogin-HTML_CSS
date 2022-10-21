@@ -196,16 +196,54 @@ form{
     border-radius: 7px;
     border: 1px solid red;  
 }
-
-
 #pedido_cliente{
-    width: 50vw;
+    width: 50vw; /*SE COLOCO % NÃO FUNCIONA*/
     display: flex;
     border: 3px solid yellow;
 }
-#localizar_produto{
+#localizar_produto_div{
     margin-top: 10px;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
+    background-color: rgb(223, 217, 217);
 }
+#localizar_produto_label{
+    margin-top: 5px;
+}
+section{
+    justify-content: space-between;
+}
+.pedido_input_primeiro{
+    width: 10%;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.pedido_input_segundo{
+    width: 30%;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.pedido_input_terceiro{
+    width: 10%;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.pedido_input_quarto{
+    width: 10%;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+#lancar_pedido{
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+#itens_do_pedido{
+    margin-top: 5px;
+}
+
 
