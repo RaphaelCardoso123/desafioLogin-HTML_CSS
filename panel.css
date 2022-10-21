@@ -75,8 +75,8 @@ form{
     width: 40%;
     height: auto;
     margin: 100px auto;
-    background-color: aquamarine;
-    border: 1px solid rgb(109, 75, 75);
+    /* background-color: aquamarine; */
+    border: 1px solid black;
     padding: 10px;  
 }
 
@@ -86,7 +86,7 @@ fieldset {
 
 #cliente_titulo {
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -98,18 +98,13 @@ fieldset {
     font-size: 1rem;
     cursor: pointer;
     position: absolute;
-    margin-left: 85%;
-    border: 1px solid black;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items:center; */
-    /* width: 50px; */
-    /* height: 20px; */
+    margin-left: 90%;
+    /* border: 1px solid black; */
 }
 
 .subtitulo_label {
     margin-top: 1.5rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -121,7 +116,7 @@ fieldset {
     padding: 7px;
     font-size: 1.3rem;
     border-radius: 7px;
-    border: 1px solid red;  
+    border: 1px solid black;  
 }
 
 #data_cadastro {
@@ -163,7 +158,7 @@ fieldset {
 
 #produto_titulo {
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -176,7 +171,7 @@ fieldset {
     padding: 7px;
     font-size: 1.3rem;
     border-radius: 7px;
-    border: 1px solid red;  
+    border: 1px solid black;  
 }
 
 #produto_novo {
@@ -203,7 +198,7 @@ fieldset {
 
 #pedido_titulo {
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -216,24 +211,25 @@ fieldset {
     padding: 7px;
     font-size: 1.3rem;
     border-radius: 7px;
-    border: 1px solid red;  
+    border: 1px solid black;  
 }
 
 #pedido_cliente {
     width: 60%; 
     display: flex;
-    border: 3px solid yellow;
+    border: 1px solid black;
 }
 
 #localizar_produto_div {
     margin-top: 10px;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     background-color: rgb(223, 217, 217);
 }
 
 #localizar_produto_label {
     margin-top: 5px;
+    color: blue;
 }
 
 section {
@@ -279,6 +275,7 @@ section {
 
 #itens_do_pedido {
     margin-top: 5px;
+    color: blue;
 }
 
 .ultima_parte {
