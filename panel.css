@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
@@ -77,15 +77,14 @@ form{
     margin: 100px auto;
     background-color: aquamarine;
     border: 1px solid rgb(109, 75, 75);
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
-fieldset{
+fieldset {
     position: relative;
 }
 
-#cliente_titulo{
+#cliente_titulo {
     width: 50%;
     border: 1px solid red;
     font-size: 1.5rem;
@@ -93,7 +92,7 @@ fieldset{
     text-decoration:underline;
 }
 
-#btn_fechar{
+#btn_fechar {
     color: red;
     padding: .3rem .6rem;
     font-size: 1rem;
@@ -108,14 +107,14 @@ fieldset{
     /* height: 20px; */
 }
 
-.subtitulo_label{
+.subtitulo_label {
     margin-top: 1.5rem;
     border: 1px solid black;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cliente_input{
+.cliente_input {
     width: 100%;
     height: 40px;
     margin: 2px auto 2px auto;
@@ -125,11 +124,11 @@ fieldset{
     border: 1px solid red;  
 }
 
-#data_cadastro{
+#data_cadastro {
     margin-bottom: 10px;
 }
 
-.btn_cliente_listar{
+.btn_cliente_listar {
     width: 15%;
     height: 30px;
     margin: 5px auto 5px auto;
@@ -140,7 +139,7 @@ fieldset{
     color: white; 
 }
 
-#cliente_novo{
+#cliente_novo {
     width: 25%;
     height: 30px;
     margin-left: 14%;
@@ -151,7 +150,7 @@ fieldset{
     color: white;
 }
 
-#cliente_salvar{
+#cliente_salvar {
     width: 25%;
     height: 30px;
     margin: 5px auto 5px auto;
@@ -162,11 +161,7 @@ fieldset{
     color: white;
 }
 
-
-
-
-
-#produto_titulo{
+#produto_titulo {
     width: 50%;
     border: 1px solid red;
     font-size: 1.5rem;
@@ -174,7 +169,7 @@ fieldset{
     text-decoration:underline;
 }
 
-.produto_input{
+.produto_input {
     width: 100%;
     height: 40px;
     margin: 2px auto 2px auto;
@@ -184,7 +179,7 @@ fieldset{
     border: 1px solid red;  
 }
 
-#produto_novo{
+#produto_novo {
     width: 25%;
     height: 30px;
     margin-left: 14%;
@@ -195,7 +190,7 @@ fieldset{
     color: white;
 }
 
-#produto_salvar{
+#produto_salvar {
     width: 25%;
     height: 30px;
     margin: 5px auto 5px auto;
@@ -206,11 +201,7 @@ fieldset{
     color: white;
 }
 
-
-
-
-
-#pedido_titulo{
+#pedido_titulo {
     width: 50%;
     border: 1px solid red;
     font-size: 1.5rem;
@@ -218,7 +209,7 @@ fieldset{
     text-decoration:underline;
 }
 
-.pedido_input{
+.pedido_input {
     width: 100%;
     height: 40px;
     margin: 2px auto 2px auto;
@@ -228,35 +219,35 @@ fieldset{
     border: 1px solid red;  
 }
 
-#pedido_cliente{
+#pedido_cliente {
     width: 60%; 
     display: flex;
     border: 3px solid yellow;
 }
 
-#localizar_produto_div{
+#localizar_produto_div {
     margin-top: 10px;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
     background-color: rgb(223, 217, 217);
 }
 
-#localizar_produto_label{
+#localizar_produto_label {
     margin-top: 5px;
 }
 
-section{
+section {
     justify-content: space-between;
 }
 
-.pedido_input_primeiro{
+.pedido_input_primeiro {
     width: 10%;
     cursor: pointer;
     border: 1px solid black;
     margin-bottom: 5px;
 }
 
-.pedido_input_segundo{
+.pedido_input_segundo {
     width: 30%;
     cursor: pointer;
     border: 1px solid black;
@@ -264,7 +255,7 @@ section{
     margin-bottom: 5px;
 }
 
-.pedido_input_terceiro{
+.pedido_input_terceiro {
     width: 10%;
     cursor: pointer;
     border: 1px solid black;
@@ -272,44 +263,40 @@ section{
     margin-bottom: 5px;
 }
 
-.pedido_input_quarto{
+.pedido_input_quarto {
     width: 10%;
     cursor: pointer;
     border: 1px solid black;
     margin-bottom: 5px;
 }
 
-#lancar_pedido{
+#lancar_pedido {
     cursor: pointer;
     border: 1px solid black;
     background-color: rgb(219, 226, 226);
     margin-bottom: 5px;
 }
 
-#itens_do_pedido{
+#itens_do_pedido {
     margin-top: 5px;
 }
 
-.ultima_parte{
+.ultima_parte {
     border: 1px solid red;
 }
 
-.item{
+.item {
     margin-top: 5px;
 }
 
-
-
-#testando{
+#valor_total {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid blue;
-    /* width: 20%;
-    border: 1px solid blue;
-    position:relative;
-    margin-left: 60%; */
+    margin-top: 5px;
 }
-.teste{
+
+.valor_total {
     width: 30%;
+    background-color: rgb(219, 226, 226);
 }
