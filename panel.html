@@ -31,10 +31,10 @@
                         <label for="cliente_titulo" id="cliente_titulo" class="flex">Clientes</label> 
                                
                         <label for="codigo" class="subtitulo_label flex">Código</label>
-                        <input type="text" class="cliente_input flex" name="codigo">
+                        <input type="text" class="cliente_input flex" name="codigo"> <!--precisa de id?-->
             
                         <label for="nome" class="subtitulo_label flex">Nome</label>
-                        <input type="text" class="cliente_input flex" name="nome">
+                        <input type="text" class="cliente_input flex" name="nome"> <!--precisa de id?-->
             
                         <label for="data_cadastro" class="subtitulo_label flex">Data Cadastro</label>
                         <input type="text" id="data_cadastro" class="cliente_input flex" name="codigo">
@@ -54,10 +54,10 @@
                         <label for="produto_titulo" id="produto_titulo" class="flex">Produtos</label> 
                                
                         <label for="codigo" class="subtitulo_label flex">Código</label>
-                        <input type="text" class="produto_input flex" name="codigo">
+                        <input type="text" class="produto_input flex" name="codigo"> <!--precisa de id?-->
             
                         <label for="descricao" class="subtitulo_label flex">Descrição</label>
-                        <input type="text" class="produto_input flex" name="descricao">
+                        <input type="text" class="produto_input flex" name="descricao"> <!--precisa de id?-->
             
                         <label for="preco" class="subtitulo_label flex">Preço</label>
                         <input type="text" id="preco_cadastro" class="produto_input flex" name="preco">
@@ -76,31 +76,34 @@
 
 
 
-
-
                 <form id="pedido_cliente" action="">
-                    <fieldset>
+                    <fieldset id="pedido_fieldset">
                         <span id="btn_fechar">X</span> 
 
                         <label for="pedido_titulo" id="pedido_titulo" class="flex">Pedidos</label> 
                                
                         <label for="codigo_do_cliente" class="subtitulo_label flex">Código do Cliente</label>
-                        <input type="text" class="pedido_input flex" name="codigo_do_cliente">
+                        <input type="text" class="pedido_input flex" name="codigo_do_cliente"> <!--precisa de id?-->
             
                         <label for="cliente_pedido" class="subtitulo_label flex">Cliente</label>
-                        <input type="text" class="pedido_input flex" name="cliente_pedido">
-            
-                        <!-- <label for="preco" class="subtitulo_label flex">Preço</label>
-                        <input type="text" id="preco_cadastro" class="pedido_input flex" name="preco">
+                        <input type="text" class="pedido_input flex" name="cliente_pedido"> <!--precisa de id?-->
 
-                        <label for="quantidade" class="subtitulo_label flex">Quantidade</label>
-                        <input type="text" id="quantidade_cadastro" class="pedido_input flex" name="quantidade">
+
             
-                        <input type="button" id="produto_anterior" class="btn_cliente_listar" value="<">
-                        <input type="button" id="produto_seguinte" class="btn_cliente_listar" value=">">
-                        <input type="button" id="produto_novo" class="btn_cliente_novo" value="Novo">
-                        <input type="button" id="produto_salvar" class="btn_cliente_salvar" value="Salvar"> -->
+                        <div id="localizar_produto"> 
+                            <label for="localizar_produto" class="subtitulo_label flex">Localizar Produto</label>
+                            <input type="text" class="pedido_input flex" name="localizar_produto"> <!--precisa de id?-->
+                        </div>
                     </fieldset>
+
+
+                        <!-- <label for="quantidade" class="subtitulo_label flex">Quantidade</label> -->
+                        <!-- <input type="text" id="quantidade_cadastro" class="pedido_input flex" name="quantidade"> -->
+            
+                        <!-- <input type="button" id="produto_anterior" class="btn_cliente_listar" value="<"> -->
+                        <!-- <input type="button" id="produto_seguinte" class="btn_cliente_listar" value=">"> -->
+                        <!-- <input type="button" id="produto_novo" class="btn_cliente_novo" value="Novo"> -->
+                        <!-- <input type="button" id="produto_salvar" class="btn_cliente_salvar" value="Salvar"> -->
                 </form>
 
         </div>

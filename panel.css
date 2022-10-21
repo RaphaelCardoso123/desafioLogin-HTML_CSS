@@ -196,3 +196,16 @@ form{
     border-radius: 7px;
     border: 1px solid red;  
 }
+
+
+#pedido_cliente{
+    width: 50vw;
+    display: flex;
+    border: 3px solid yellow;
+}
+#localizar_produto{
+    margin-top: 10px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
