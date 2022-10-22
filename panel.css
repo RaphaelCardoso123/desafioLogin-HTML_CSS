@@ -75,7 +75,6 @@ form {
     width: 40%;
     height: auto;
     margin: 100px auto;
-    /* background-color: aquamarine; */
     border: 1px solid black;
     padding: 10px;  
 }
@@ -86,7 +85,6 @@ fieldset {
 
 #cliente_titulo {
     width: 50%;
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -99,12 +97,10 @@ fieldset {
     cursor: pointer;
     position: absolute;
     margin-left: 90%;
-    /* border: 1px solid black; */
 }
 
 .subtitulo_label {
     margin-top: 1.5rem;
-    /* border: 1px solid black; */
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -119,10 +115,6 @@ fieldset {
     border: 1px solid black;  
 }
 
-#data_cadastro {
-    margin-bottom: 10px;
-}
-
 .btn_cliente_listar {
     width: 15%;
     height: 30px;
@@ -134,7 +126,7 @@ fieldset {
     color: white; 
 }
 
-#cliente_novo {
+.btn_novo {    
     width: 25%;
     height: 30px;
     margin-left: 14%;
@@ -145,7 +137,7 @@ fieldset {
     color: white;
 }
 
-#cliente_salvar {
+.btn_salvar {      
     width: 25%;
     height: 30px;
     margin: 5px auto 5px auto;
@@ -158,7 +150,6 @@ fieldset {
 
 #produto_titulo {
     width: 50%;
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -174,31 +165,8 @@ fieldset {
     border: 1px solid black;  
 }
 
-#produto_novo {
-    width: 25%;
-    height: 30px;
-    margin-left: 14%;
-    border-radius: 7px;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: rgb(20, 83, 201);
-    color: white;
-}
-
-#produto_salvar {
-    width: 25%;
-    height: 30px;
-    margin: 5px auto 5px auto;
-    border-radius: 7px;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: green;
-    color: white;
-}
-
 #pedido_titulo {
     width: 50%;
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration:underline;
@@ -302,13 +270,13 @@ section {
     background-color: rgb(219, 226, 226);
 }
 
-#simbolo_real{
+#simbolo_real {
     margin-top: 30px;
 }
 
-th{
+th {
     margin: 5px 40px 5px auto;
 }
-#th_dois{
+#th_dois {
     margin: 5px 80px 5px auto;
 }

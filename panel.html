@@ -11,7 +11,7 @@
 <body>
     <main class ="flex">
 
-        
+        <!--LADO ESQUERDO-->
         <div class ="flex" id ="lado-esquerdo">
             <ul>
                 <li><a class ="flex" href ="#"> <span class ="material-symbols-outlined">group_add</span> Clientes </a></li>
@@ -20,11 +20,12 @@
             </ul>
         </div>
 
-
-        <div class ="flex" id ="lado-direito">
+        <!--LADO DIREITO-->
+        <div class ="flex" id ="lado-direito"> 
             <div id="forms" class="flex column">
                 
-                <form id="cliente_produto" action="">
+                <!--CLIENTE-->
+                <form action=""> 
                     <fieldset>
                         <span id="btn_fechar"><strong>x</strong></span> 
 
@@ -37,17 +38,17 @@
                         <input type="text" class="cliente_input flex" name="nome"> 
             
                         <label for="data_cadastro" class="subtitulo_label flex">Data Cadastro</label>
-                        <input type="text" id="data_cadastro" class="cliente_input flex" name="codigo">
+                        <input type="text" class="cliente_input flex" name="codigo">
             
-                        <input type="button" id="cliente_anterior" class="btn_cliente_listar" value="<">
-                        <input type="button" id="cliente_seguinte" class="btn_cliente_listar" value=">">
-                        <input type="button" id="cliente_novo" class="btn_cliente_novo" value="Novo">
-                        <input type="button" id="cliente_salvar" class="btn_cliente_salvar" value="Salvar">
+                        <input type="button" class="btn_cliente_listar" value="<"> 
+                        <input type="button" class="btn_cliente_listar" value=">"> 
+                        <input type="button" class="btn_novo" value="Novo"> 
+                        <input type="button" class="btn_salvar" value="Salvar"> 
                     </fieldset>
                 </form>
-
-
-                <form id="produto_cliente" action="">
+                                                                          
+                <!--PRODUTO-->
+                <form action=""> 
                     <fieldset>
                         <span id="btn_fechar"><strong>x</strong></span> 
 
@@ -58,22 +59,23 @@
             
                         <label for="descricao" class="subtitulo_label flex">Descrição</label>
                         <input type="text" class="produto_input flex" name="descricao"> 
+                        
                         <label for="preco" class="subtitulo_label flex">Preço</label>
-                        <input type="text" id="preco_cadastro" class="produto_input flex" name="preco">
+                        <input type="text" class="produto_input flex" name="preco">
 
                         <label for="quantidade" class="subtitulo_label flex">Quantidade</label>
-                        <input type="text" id="quantidade_cadastro" class="produto_input flex" name="quantidade">
+                        <input type="text" class="produto_input flex" name="quantidade"> 
             
-                        <input type="button" id="produto_anterior" class="btn_cliente_listar" value="<">
-                        <input type="button" id="produto_seguinte" class="btn_cliente_listar" value=">">
-                        <input type="button" id="produto_novo" class="btn_cliente_novo" value="Novo">
-                        <input type="button" id="produto_salvar" class="btn_cliente_salvar" value="Salvar">
+                        <input type="button" class="btn_cliente_listar" value="<"> 
+                        <input type="button" class="btn_cliente_listar" value=">">                        
+                        <input type="button" class="btn_novo" value="Novo"> 
+                        <input type="button" class="btn_salvar" value="Salvar"> 
                     </fieldset>
                 </form>
 
-
-                <form id="pedido_cliente" action="">
-                    <fieldset id="pedido_fieldset">
+                <!--PEDIDO-->
+                <form id="pedido_cliente" action=""> 
+                    <fieldset > 
                         <span id="btn_fechar"><strong>x</strong></span> 
 
                         <label for="pedido_titulo" id="pedido_titulo" class="flex"><strong>Pedidos</strong></label> 
@@ -84,7 +86,7 @@
                         <label for="cliente_pedido" class="subtitulo_label flex">Cliente</label>
                         <input type="text" class="pedido_input flex" name="cliente_pedido"> 
                       
-                        
+                        <!--LOCALIZAR PRODUTO-->
                         <div id="localizar_produto_div"> 
                             <label for="localizar_produto" id="localizar_produto_label" class="subtitulo_label flex">Localizar Produto</label>
                             <section class="flex"> 
@@ -96,37 +98,27 @@
                             </section>
                         </div>
 
+                        <!--ITENS DO PEDIDO-->
+                        <label for="itens_do_pedido" id="itens_do_pedido" class="subtitulo_label flex">Itens do Pedido</label>                                           
+                         
+                        <!--ITENS-->
+                        <table class="flex"> 
+                            <tr class="item flex">
+                                <th>Item</th>
+                                <th id="th_dois">Descrição</th>
+                                <th>Preço</th>
+                                <th>Qtd</th>
+                                <th>Sub Total</th>
+                            </tr>
+                        </table>
 
-                        <label for="itens_do_pedido" id="itens_do_pedido" class="subtitulo_label flex">Itens do Pedido</label>                                              
-                                                   
-                            <!-- <section class="ultima_parte flex">
-                                <label for="cliente_pedido" class="item subtitulo_label flex"><strong>Item</strong></label>
-                                <label for="cliente_pedido" class="item subtitulo_label flex"><strong>Descrição</strong></label>
-                                <label for="cliente_pedido" class="item subtitulo_label flex"><strong>Preço</strong></label>
-                                <label for="cliente_pedido" class="item subtitulo_label flex"><strong>Qtd</strong></label>
-                                <label for="cliente_pedido" class="item subtitulo_label flex"><strong>Sub Total</strong></label>
-                            </section> -->
-
-                            <table class="flex">
-                                <tr class="item flex">
-                                    <th>Item</th>
-                                    <th id="th_dois">Descrição</th>
-                                    <th>Preço</th>
-                                    <th>Qtd</th>
-                                    <th>Sub Total</th>
-                                </tr>
-                            </table>
-
-
-                        <div id="valor_total">
+                        <!--VALOR TOTAL-->
+                        <div id="valor_total"> 
                             <span id="simbolo_real">R$:</span>
                             <input class="valor_total">
-                        </div>
-
+                        </div>                      
                     </fieldset> 
-
                 </form>
-
             </div>
         </div>
     </main>
