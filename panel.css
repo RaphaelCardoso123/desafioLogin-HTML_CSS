@@ -306,22 +306,9 @@ section {
     margin-top: 30px;
 }
 
-#th_um{
-   margin: 5px 60px 5px auto;
+th{
+    margin: 5px 40px 5px auto;
 }
-
 #th_dois{
     margin: 5px 80px 5px auto;
-}
-
-#th_tres{
-    margin: 5px 40px 5px auto;
-}
-
-#th_quatro{
-    margin: 5px 40px 5px auto;
-}
-
-#th_cinco{
-    margin: 5px 0 5px auto;
 }
