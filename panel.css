@@ -71,7 +71,7 @@ div#lado-direito {
     height: 100vh;
 }
 
-form{
+form {
     width: 40%;
     height: auto;
     margin: 100px auto;
@@ -243,6 +243,7 @@ section {
     cursor: pointer;
     border: 1px solid black;
     margin-bottom: 5px;
+    margin-left: 5px;
 }
 
 .pedido_input_segundo {
@@ -271,6 +272,7 @@ section {
 #lancar_pedido {
     border: 1px solid black;
     margin-bottom: 5px;
+    margin-right: 5px;
     cursor: pointer;
     background-color: rgb(219, 226, 226);
     font-family: Arial, Helvetica, sans-serif;   
@@ -302,4 +304,24 @@ section {
 
 #simbolo_real{
     margin-top: 30px;
+}
+
+#th_um{
+   margin: 5px 60px 5px auto;
+}
+
+#th_dois{
+    margin: 5px 80px 5px auto;
+}
+
+#th_tres{
+    margin: 5px 40px 5px auto;
+}
+
+#th_quatro{
+    margin: 5px 40px 5px auto;
+}
+
+#th_cinco{
+    margin: 5px 0 5px auto;
 }
